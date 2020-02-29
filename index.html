@@ -2,44 +2,46 @@
 This project is for IST402: Crowdsourcing and Crowd-AI Systems, at Penn State.
 Got any questions? Email altmcman@gmail.com and I'll get back to you
 -->
-<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>SCP Survey</title>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-<script src="mturk.js"  type="text/javascript">></script>
-<h1>SCP Description Submission Form</h1>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>SCP Survey</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="mturk.js"  type="text/javascript">></script>
+</head>
 
+<body>
+<h1>SCP Description Submission Form</h1>
 <h2>Instructions:</h2><br>
-Follow this link and read the story:
-http://www.scp-wiki.net/random:random-scp
-Afterwards, come back to this page and fill in the details.
+Follow this link and read the story:<br>
+<a href="http://www.scp-wiki.net/random:random-scp">http://www.scp-wiki.net/random:random-scp</a><br>
+Afterwards, come back to this page and fill in the details.<br>
 <h2>User Input Form:</h2>
 
-<form id="mturk_form">Categorize what type of entity this SCP seems to be.<br />
-<select name="entity_type" size="4"><option>Human</option><option>Inanimate Object</option><option>Animal</option><option>Other</option> </select><br />
-<br />
-If &quot;Other&quot; was chosen, describe in three words or less what this SCP is.<br />
-<input name="entity_type_descriptor" type="text" /><br />
-<br />
-Does this SCP appear to be sentient?<br />
-<input name="sentience" type="radio" value="yes" /> Yes<br />
-<input name="sentience" type="radio" value="no" /> No<br />
-<input name="sentience" type="radio" value="unclear" /> Unclear<br />
-<br />
-If this SCP is sentient, describe its personality. Respond &quot;n/a&quot; if this SCP is not sentient. (100 word maximum)<br />
-<textarea cols="50" name="personality" rows="4"></textarea><br />
-<br />
-Summarize the dangers of this SCP. (100 word maximum, 10 word minimum)<br />
-<textarea cols="50" name="dangers" rows="4"></textarea><br />
-<br />
+<form id="mturk_form">Categorize what type of entity this SCP seems to be.<br>
+<select name="entity_type" size="4"><option>Human</option><option>Inanimate Object</option><option>Animal</option><option>Other</option> </select><br>
+<br>
+If &quot;Other&quot; was chosen, describe in three words or less what this SCP is.<br>
+<input name="entity_type_descriptor" type="text" /><br>
+<br>
+Does this SCP appear to be sentient?<br>
+<input name="sentience" type="radio" value="yes" /> Yes<br>
+<input name="sentience" type="radio" value="no" /> No<br>
+<input name="sentience" type="radio" value="unclear" /> Unclear<br>
+<br>
+If this SCP is sentient, describe its personality. Respond &quot;n/a&quot; if this SCP is not sentient. (100 word maximum)<br>
+<textarea cols="50" name="personality" rows="4"></textarea><br>
+<br>
+Summarize the dangers of this SCP. (100 word maximum, 10 word minimum)<br>
+<textarea cols="50" name="dangers" rows="4"></textarea><br>
+<br>
 Briefly describe other important characters in the story. Each new line is interpreted as a new character.
 <ul type="square">
 	<li>Include signifigant details of each character, and signifigant actions they&#39;ve taken in the story.</li>
 	<li>There is no word count requirement, but the best descriptions are short yet <u>detailed</u>.</li>
 	<li>There are no limits to what qualifies as a character: a signifigant role/impact on the story is all thats needed.</li>
 </ul>
-Example description: <i>Ms. Jackson: A scientist working for the SCP Foundation. She picks up SCP-113, which results in major positive psychological effects for her.</i><br />
-<textarea cols="75" name="other_characters" rows="10"></textarea><br />
-<br />
+Example description: <i>Ms. Jackson: A scientist working for the SCP Foundation. She picks up SCP-113, which results in major positive psychological effects for her.</i><br>
+<textarea cols="75" name="other_characters" rows="10"></textarea><br>
+<br>
 <input name="submit" type="submit" />&nbsp;</form>
-<style id="internal-style" type="text/css">/* modules */
-@import url(http://d3g0gp89917ko0.cloudfront.net/v--3e3a6f7dbcc9/common--modules/css/pagerate/PageRateWidgetModule.css);
+</body>
